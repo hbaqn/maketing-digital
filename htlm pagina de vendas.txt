@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Vendas - Marketing Digital Completo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .cta {
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta h2 {
+            margin: 0 0 10px;
+        }
+        .cta p {
+            margin: 0 0 20px;
+        }
+        .cta button {
+            background: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .cta button:hover {
+            background: #005bb5;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marketing Digital Completo</h1>
+        <p>Transforme sua presença online e alcance mais clientes!</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>O que você vai aprender:</h2>
+            <ul>
+                <li>Criação de campanhas eficientes.</li>
+                <li>Gestão de redes sociais.</li>
+                <li>SEO para aparecer no topo do Google.</li>
+                <li>Email marketing que converte.</li>
+                <li>Estratégias para aumentar vendas.</li>
+            </ul>
+        </section>
+
+        <img src="https://via.placeholder.com/800x400" alt="Imagem representando marketing digital">
+
+        <div class="cta">
+            <h2>Não perca essa oportunidade!</h2>
+            <p>Clique no botão abaixo para garantir seu acesso agora.</p>
+            <button onclick="location.href='https://seusite.com/checkout'">Clique Aqui</button>
+        </div>
+    </div>
+</body>
+</html>
